@@ -1,5 +1,6 @@
 package com.example.tojuzone.nphcdasmsapp.activities;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -8,9 +9,12 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.example.tojuzone.nphcdasmsapp.R;
+import com.example.tojuzone.nphcdasmsapp.SettingsActivity;
 import com.example.tojuzone.nphcdasmsapp.fragments.FixedSessionFragment;
 import com.example.tojuzone.nphcdasmsapp.fragments.HomeFragment;
 import com.example.tojuzone.nphcdasmsapp.fragments.OutreachSessionFragment;
@@ -55,6 +59,24 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            Intent settingsActivity = new Intent(this, SettingsActivity.class);
+            startActivity(settingsActivity);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         switch (menuItem.getItemId()) {
@@ -78,5 +100,6 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
 
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+
     }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show"
+        android:summaryOff="Hidden"
+        android:summaryOn="Shown"
+        android:title="Show oo"/>
+
+    <ListPreference android:defaultValue="abuja"
+        android:title="States"
+        android:key="state"
+        android:entries="@array/states_label"
+        android:entryValues="@array/states_values"/>
+
+    <ListPreference android:defaultValue="local_govt_1"
+        android:title="Local Govt"
+        android:key="local_govt"
+        android:entries="@array/local_govt_label"
+        android:entryValues="@array/local_govt_values"/>
+
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="states_label">
+        <item>Abuja</item>
+        <item>Kaduba</item>
+        <item>Enugu</item>
+    </array>
+
+    <array name="states_values">
+        <item>abuja</item>
+        <item>kaduba</item>
+        <item>enugu</item>
+    </array>
+
+    <array name="local_govt_label">
+        <item>Local Govt. 1</item>
+        <item>Local Govt. 2</item>
+        <item>Local Govt. 3</item>
+    </array>
+
+    <array name="local_govt_values">
+        <item>local_govt_1</item>
+        <item>local_govt_2</item>
+        <item>local_govt_3</item>
+    </array>
+</resources>

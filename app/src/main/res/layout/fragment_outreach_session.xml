@@ -59,7 +59,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/a_edit_text"
+                android:id="@+id/out_a"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -86,7 +86,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/a_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_a" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -97,7 +97,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView8"
-                app:layout_constraintTop_toBottomOf="@+id/a_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_a" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -107,7 +107,7 @@
                 android:text="(b)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/a_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_a" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -116,10 +116,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView10"
-                app:layout_constraintTop_toBottomOf="@+id/a_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_a" />
 
             <EditText
-                android:id="@+id/b_edit_text"
+                android:id="@+id/out_b"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -147,7 +147,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/b_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_b" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -158,7 +158,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView11"
-                app:layout_constraintTop_toBottomOf="@+id/b_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_b" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -168,7 +168,7 @@
                 android:text="(c)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView12"
-                app:layout_constraintTop_toBottomOf="@+id/b_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_b" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -177,10 +177,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView13"
-                app:layout_constraintTop_toBottomOf="@+id/b_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_b" />
 
             <EditText
-                android:id="@+id/c_edit_text"
+                android:id="@+id/out_c"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -208,7 +208,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/c_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_c" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -219,7 +219,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView14"
-                app:layout_constraintTop_toBottomOf="@+id/c_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_c" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -229,7 +229,7 @@
                 android:text="(d)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView15"
-                app:layout_constraintTop_toBottomOf="@+id/c_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_c" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -238,10 +238,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView16"
-                app:layout_constraintTop_toBottomOf="@+id/c_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_c" />
 
             <EditText
-                android:id="@+id/d_edit_text"
+                android:id="@+id/out_d"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -269,7 +269,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/d_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_d" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -280,7 +280,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView17"
-                app:layout_constraintTop_toBottomOf="@+id/d_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_d" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -290,7 +290,7 @@
                 android:text="(e)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView18"
-                app:layout_constraintTop_toBottomOf="@+id/d_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_d" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -299,10 +299,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView19"
-                app:layout_constraintTop_toBottomOf="@+id/d_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_d" />
 
             <EditText
-                android:id="@+id/e_edit_text"
+                android:id="@+id/out_e"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -330,7 +330,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/e_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_e" />
 
             <TextView
                 android:id="@+id/textView24"
@@ -341,7 +341,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView23"
-                app:layout_constraintTop_toBottomOf="@+id/e_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_e" />
 
             <TextView
                 android:id="@+id/textView25"
@@ -351,7 +351,7 @@
                 android:text="(f)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView24"
-                app:layout_constraintTop_toBottomOf="@+id/e_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_e" />
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -360,10 +360,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView25"
-                app:layout_constraintTop_toBottomOf="@+id/e_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_e" />
 
             <EditText
-                android:id="@+id/f_edit_text"
+                android:id="@+id/out_f"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -391,7 +391,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/f_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_f" />
 
             <TextView
                 android:id="@+id/textView27"
@@ -402,7 +402,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView26"
-                app:layout_constraintTop_toBottomOf="@+id/f_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_f" />
 
             <TextView
                 android:id="@+id/textView28"
@@ -412,7 +412,7 @@
                 android:text="(g)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView27"
-                app:layout_constraintTop_toBottomOf="@+id/f_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_f" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -421,10 +421,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView28"
-                app:layout_constraintTop_toBottomOf="@+id/f_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_f" />
 
             <EditText
-                android:id="@+id/g_edit_text"
+                android:id="@+id/out_g"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -452,7 +452,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/g_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_g" />
 
             <TextView
                 android:id="@+id/textView30"
@@ -463,7 +463,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView29"
-                app:layout_constraintTop_toBottomOf="@+id/g_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_g" />
 
             <TextView
                 android:id="@+id/textView31"
@@ -473,7 +473,7 @@
                 android:text="(h)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView30"
-                app:layout_constraintTop_toBottomOf="@+id/g_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_g" />
 
             <ImageView
                 android:id="@+id/imageView13"
@@ -482,10 +482,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView31"
-                app:layout_constraintTop_toBottomOf="@+id/g_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_g" />
 
             <EditText
-                android:id="@+id/h_edit_text"
+                android:id="@+id/out_h"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -513,7 +513,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/h_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_h" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -524,7 +524,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView32"
-                app:layout_constraintTop_toBottomOf="@+id/h_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_h" />
 
             <TextView
                 android:id="@+id/textView34"
@@ -534,7 +534,7 @@
                 android:text="(i)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView33"
-                app:layout_constraintTop_toBottomOf="@+id/h_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_h" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -543,10 +543,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView34"
-                app:layout_constraintTop_toBottomOf="@+id/h_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_h" />
 
             <EditText
-                android:id="@+id/i_edit_text"
+                android:id="@+id/out_i"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -574,7 +574,7 @@
                 android:text="Number of children given "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/i_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_i" />
 
             <TextView
                 android:id="@+id/textView36"
@@ -585,7 +585,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView35"
-                app:layout_constraintTop_toBottomOf="@+id/i_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_i" />
 
             <TextView
                 android:id="@+id/textView37"
@@ -595,7 +595,7 @@
                 android:text="(j)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView36"
-                app:layout_constraintTop_toBottomOf="@+id/i_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_i" />
 
             <ImageView
                 android:id="@+id/imageView15"
@@ -604,10 +604,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView37"
-                app:layout_constraintTop_toBottomOf="@+id/i_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_i" />
 
             <EditText
-                android:id="@+id/j_edit_text"
+                android:id="@+id/out_j"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -635,7 +635,7 @@
                 android:text="Number of BCG doses opened "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/j_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_j" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -645,7 +645,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView38"
-                app:layout_constraintTop_toBottomOf="@+id/j_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_j" />
 
             <TextView
                 android:id="@+id/textView40"
@@ -655,7 +655,7 @@
                 android:text="(k)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView39"
-                app:layout_constraintTop_toBottomOf="@+id/j_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_j" />
 
             <ImageView
                 android:id="@+id/imageView16"
@@ -664,10 +664,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView40"
-                app:layout_constraintTop_toBottomOf="@+id/j_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_j" />
 
             <EditText
-                android:id="@+id/k_edit_text"
+                android:id="@+id/out_k"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -695,7 +695,7 @@
                 android:text="Number of OPV doses opened "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/k_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_k" />
 
             <TextView
                 android:id="@+id/textView42"
@@ -705,7 +705,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView41"
-                app:layout_constraintTop_toBottomOf="@+id/k_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_k" />
 
             <TextView
                 android:id="@+id/textView43"
@@ -715,7 +715,7 @@
                 android:text="(L)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView42"
-                app:layout_constraintTop_toBottomOf="@+id/k_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_k" />
 
             <ImageView
                 android:id="@+id/imageView17"
@@ -724,10 +724,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView43"
-                app:layout_constraintTop_toBottomOf="@+id/k_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_k" />
 
             <EditText
-                android:id="@+id/l_edit_text"
+                android:id="@+id/out_l"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -755,7 +755,7 @@
                 android:text="Number of Penta doses opened "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/l_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_l" />
 
             <TextView
                 android:id="@+id/textView45"
@@ -765,7 +765,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView44"
-                app:layout_constraintTop_toBottomOf="@+id/l_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_l" />
 
             <TextView
                 android:id="@+id/textView46"
@@ -775,7 +775,7 @@
                 android:text="(m)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView45"
-                app:layout_constraintTop_toBottomOf="@+id/l_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_l" />
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -784,10 +784,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView46"
-                app:layout_constraintTop_toBottomOf="@+id/l_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_l" />
 
             <EditText
-                android:id="@+id/m_edit_text"
+                android:id="@+id/out_m"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -815,7 +815,7 @@
                 android:text="Number of IPV doses opened "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/m_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_m" />
 
             <TextView
                 android:id="@+id/textView48"
@@ -825,7 +825,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView47"
-                app:layout_constraintTop_toBottomOf="@+id/m_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_m" />
 
             <TextView
                 android:id="@+id/textView49"
@@ -835,7 +835,7 @@
                 android:text="(n)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView48"
-                app:layout_constraintTop_toBottomOf="@+id/m_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_m" />
 
             <ImageView
                 android:id="@+id/imageView19"
@@ -844,10 +844,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView49"
-                app:layout_constraintTop_toBottomOf="@+id/m_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_m" />
 
             <EditText
-                android:id="@+id/n_edit_text"
+                android:id="@+id/out_n"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -875,7 +875,7 @@
                 android:text="Number of Measles doses opened "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/n_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_n" />
 
             <TextView
                 android:id="@+id/textView51"
@@ -885,7 +885,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView50"
-                app:layout_constraintTop_toBottomOf="@+id/n_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_n" />
 
             <TextView
                 android:id="@+id/textView52"
@@ -895,7 +895,7 @@
                 android:text="(o)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView51"
-                app:layout_constraintTop_toBottomOf="@+id/n_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_n" />
 
             <ImageView
                 android:id="@+id/imageView20"
@@ -904,10 +904,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView52"
-                app:layout_constraintTop_toBottomOf="@+id/n_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_n" />
 
             <EditText
-                android:id="@+id/o_edit_text"
+                android:id="@+id/out_o"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -935,7 +935,7 @@
                 android:text="Any Supervision visit received? "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/o_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_o" />
 
             <TextView
                 android:id="@+id/textView54"
@@ -946,7 +946,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView53"
-                app:layout_constraintTop_toBottomOf="@+id/o_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_o" />
 
             <TextView
                 android:id="@+id/textView55"
@@ -956,7 +956,7 @@
                 android:text="(p)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView54"
-                app:layout_constraintTop_toBottomOf="@+id/o_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_o" />
 
             <ImageView
                 android:id="@+id/imageView21"
@@ -965,10 +965,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView55"
-                app:layout_constraintTop_toBottomOf="@+id/o_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_o" />
 
             <EditText
-                android:id="@+id/p_edit_text"
+                android:id="@+id/out_p"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -996,7 +996,7 @@
                 android:text="Any Vaccine Stock out? "
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/p_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_p" />
 
             <TextView
                 android:id="@+id/textView57"
@@ -1007,7 +1007,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/textView56"
-                app:layout_constraintTop_toBottomOf="@+id/p_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_p" />
 
             <TextView
                 android:id="@+id/textView58"
@@ -1017,7 +1017,7 @@
                 android:text="(q)"
                 android:textColor="@color/colorPrimaryDark"
                 app:layout_constraintStart_toEndOf="@+id/textView57"
-                app:layout_constraintTop_toBottomOf="@+id/p_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_p" />
 
             <ImageView
                 android:id="@+id/imageView22"
@@ -1026,10 +1026,10 @@
                 android:layout_marginTop="16dp"
                 android:src="@drawable/info_icon"
                 app:layout_constraintStart_toEndOf="@+id/textView58"
-                app:layout_constraintTop_toBottomOf="@+id/p_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_p" />
 
             <EditText
-                android:id="@+id/q_edit_text"
+                android:id="@+id/out_q"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="16dp"
@@ -1048,7 +1048,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView56" />
 
             <Button
-                android:id="@+id/fixedMsgBtn"
+                android:id="@+id/outreachMsgBtn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -1062,7 +1062,7 @@
                 android:textColor="@android:color/background_light"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/q_edit_text" />
+                app:layout_constraintTop_toBottomOf="@+id/out_q" />
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
 
