@@ -80,7 +80,7 @@
             app:layout_constraintTop_toBottomOf="@+id/hf_code_text_value" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/hf_change_btn"
             android:layout_width="128dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"

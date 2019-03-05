@@ -5,7 +5,7 @@
         android:key="show"
         android:summaryOff="Hidden"
         android:summaryOn="Shown"
-        android:title="Show oo"/>
+        android:title="Show Data"/>
 
     <ListPreference android:defaultValue="abuja"
         android:title="States"

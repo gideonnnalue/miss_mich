@@ -1,5 +1,6 @@
 package com.example.tojuzone.nphcdasmsapp.activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -24,6 +25,8 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
 
     private DrawerLayout drawerLayout;
 
+    public static int activityResultOk = Activity.RESULT_OK;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +50,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             setTitle("NPHCDA RI SMS Reporting");
             navigationView.setCheckedItem(R.id.home);
         }
+
     }
 
     @Override
@@ -56,6 +60,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         } else {
             super.onBackPressed();
         }
+
     }
 
     @Override
@@ -95,6 +100,10 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             case R.id.outreach_session:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new OutreachSessionFragment()).commit();
                 setTitle("Outreach session report");
+                break;
+            case R.id.dash_settings:
+                Intent settingsActivity = new Intent(this, SettingsActivity.class);
+                startActivity(settingsActivity);
                 break;
         }
 

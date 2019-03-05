@@ -2,13 +2,13 @@
 <resources>
     <array name="states_label">
         <item>Abuja</item>
-        <item>Kaduba</item>
+        <item>Kaduna</item>
         <item>Enugu</item>
     </array>
 
     <array name="states_values">
         <item>abuja</item>
-        <item>kaduba</item>
+        <item>kaduna</item>
         <item>enugu</item>
     </array>
 
